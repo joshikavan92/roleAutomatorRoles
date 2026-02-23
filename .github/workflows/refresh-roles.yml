@@ -8,6 +8,8 @@ on:
 jobs:
   refresh:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write   # required so the job can push the generated roles/ back to the repo
 
     steps:
       - name: Checkout repo
@@ -38,12 +40,12 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
-          if git diff --quiet; then
+          git add roles/ docs/ 2>/dev/null || true
+          if git diff --staged --quiet; then
             echo "No changes to commit."
             exit 0
           fi
 
           git status
-          git add roles docs || true
-          git commit -m "Auto-refresh roles from Jamf docs ($(date -u +'%Y-%m-%d %H:%M:%S') UTC)" || exit 0
+          git commit -m "Auto-refresh roles from Jamf docs ($(date -u +'%Y-%m-%d %H:%M:%S') UTC)"
           git push
