@@ -1,0 +1,2598 @@
+{
+  "version": "1.0.0",
+  "last_updated": "2026-02-23T12:21:36.986748",
+  "endpoints": [
+    {
+      "endpoint": "/accounts",
+      "operation": "GET",
+      "privileges": [
+        "Read - User accounts and groups"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/accounts/userid/{id}",
+      "operation": "GET",
+      "privileges": [
+        "Read - User accounts and groups"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/accounts/userid/{id}",
+      "operation": "POST",
+      "privileges": [
+        "Create - User accounts and groups"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/accounts/userid/{id}",
+      "operation": "PUT",
+      "privileges": [
+        "Update - User accounts and groups"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/accounts/userid/{id}",
+      "operation": "DELETE",
+      "privileges": [
+        "Delete - User accounts and groups"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/accounts/groupid/{id}",
+      "operation": "GET",
+      "privileges": [
+        "Read - User accounts and groups"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/accounts/groupid/{id}",
+      "operation": "POST",
+      "privileges": [
+        "Create - User accounts and groups"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/accounts/groupid/{id}",
+      "operation": "PUT",
+      "privileges": [
+        "Update - User accounts and groups"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/accounts/groupid/{id}",
+      "operation": "DELETE",
+      "privileges": [
+        "Delete - User accounts and groups"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/activationcode",
+      "operation": "GET",
+      "privileges": [
+        "Read - Activation code"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/activationcode",
+      "operation": "PUT",
+      "privileges": [
+        "Update - Activation code"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/advancedcomputersearches",
+      "operation": "GET",
+      "privileges": [
+        "Read - Advanced Computer Searches"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/advancedcomputersearches/id/{id}",
+      "operation": "GET",
+      "privileges": [
+        "Read - Advanced Computer Searches"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/advancedcomputersearches/id/{id}",
+      "operation": "POST",
+      "privileges": [
+        "Create - Advanced Computer Searches"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/advancedcomputersearches/id/{id}",
+      "operation": "PUT",
+      "privileges": [
+        "Update - Advanced Computer Searches"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/advancedcomputersearches/id/{id}",
+      "operation": "DELETE",
+      "privileges": [
+        "Delete - Advanced Computer Searches"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/advancedmobiledevicesearches",
+      "operation": "GET",
+      "privileges": [
+        "Read - Advanced Mobile Device Searches"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/advancedmobiledevicesearches/id/{id}",
+      "operation": "GET",
+      "privileges": [
+        "Read - Advanced Mobile Device Searches"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/advancedmobiledevicesearches/id/{id}",
+      "operation": "POST",
+      "privileges": [
+        "Create - Advanced Mobile Device Searches"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/advancedmobiledevicesearches/id/{id}",
+      "operation": "PUT",
+      "privileges": [
+        "Update - Advanced Mobile Device Searches"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/advancedmobiledevicesearches/id/{id}",
+      "operation": "DELETE",
+      "privileges": [
+        "Delete - Advanced Mobile Device Searches"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/advancedusersearches",
+      "operation": "GET",
+      "privileges": [
+        "Read - Advanced User Searches"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/advancedusersearches/id/{id}",
+      "operation": "GET",
+      "privileges": [
+        "Read - Advanced User Searches"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/advancedusersearches/id/{id}",
+      "operation": "POST",
+      "privileges": [
+        "Create - Advanced User Searches"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/advancedusersearches/id/{id}",
+      "operation": "PUT",
+      "privileges": [
+        "Update - Advanced User Searches"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/advancedusersearches/id/{id}",
+      "operation": "DELETE",
+      "privileges": [
+        "Delete - Advanced User Searches"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/allowedfileextensions",
+      "operation": "GET",
+      "privileges": [
+        "Read - Allowed File Extensions"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/allowedfileextensions/id/{id}",
+      "operation": "GET",
+      "privileges": [
+        "Read - Allowed File Extensions"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/allowedfileextensions/id/{id}",
+      "operation": "POST",
+      "privileges": [
+        "Create - Allowed File Extensions"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/allowedfileextensions/id/{id}",
+      "operation": "DELETE",
+      "privileges": [
+        "Delete - Allowed File Extensions"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/buildings",
+      "operation": "GET",
+      "privileges": [
+        "Read - Buildings"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/buildings/id/{id}",
+      "operation": "GET",
+      "privileges": [
+        "Read - Buildings"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/buildings/id/{id}",
+      "operation": "POST",
+      "privileges": [
+        "Create - Buildings"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/buildings/id/{id}",
+      "operation": "PUT",
+      "privileges": [
+        "Update - Buildings"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/buildings/id/{id}",
+      "operation": "DELETE",
+      "privileges": [
+        "Delete - Buildings"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/byoprofiles",
+      "operation": "GET",
+      "privileges": [
+        "Read - Personal Device Profiles"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/byoprofiles/id/{id}",
+      "operation": "GET",
+      "privileges": [
+        "Read - Personal Device Profiles"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/byoprofiles/id/{id}",
+      "operation": "POST",
+      "privileges": [
+        "Create - Personal Device Profiles"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/byoprofiles/id/{id}",
+      "operation": "PUT",
+      "privileges": [
+        "Update - Personal Device Profiles"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/byoprofiles/id/{id}",
+      "operation": "DELETE",
+      "privileges": [
+        "Delete - Personal Device Profiles"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/categories",
+      "operation": "GET",
+      "privileges": [
+        "Read - Categories"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/categories/id/{id}",
+      "operation": "GET",
+      "privileges": [
+        "Read - Categories"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/categories/id/{id}",
+      "operation": "POST",
+      "privileges": [
+        "Create - Categories"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/categories/id/{id}",
+      "operation": "PUT",
+      "privileges": [
+        "Update - Categories"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/categories/id/{id}",
+      "operation": "DELETE",
+      "privileges": [
+        "Delete - Categories"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/classes",
+      "operation": "GET",
+      "privileges": [
+        "Read - Classes"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/classes/id/{id}",
+      "operation": "GET",
+      "privileges": [
+        "Read - Classes"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/classes/id/{id}",
+      "operation": "POST",
+      "privileges": [
+        "Create - Classes"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/classes/id/{id}",
+      "operation": "PUT",
+      "privileges": [
+        "Update - Classes"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/classes/id/{id}",
+      "operation": "DELETE",
+      "privileges": [
+        "Delete - Classes"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/commandflush",
+      "operation": "DELETE",
+      "privileges": [
+        "Flush MDM Commands (Jamf Pro Server Actions)"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/commandflush/{idtype}/id/{id}/status/{status}",
+      "operation": "DELETE",
+      "privileges": [
+        "Flush MDM Commands (Jamf Pro Server Actions)"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/computerapplications/...",
+      "operation": "GET",
+      "privileges": [
+        "Read - Advanced Computer Searches"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/computerapplicationusage/...",
+      "operation": "GET",
+      "privileges": [
+        "Read - Computers"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/computercheckin",
+      "operation": "GET",
+      "privileges": [
+        "Read - Check-In"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/computercheckin",
+      "operation": "PUT",
+      "privileges": [
+        "Update - Check-In"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/computercommands/...",
+      "operation": "GET",
+      "privileges": [
+        "Read - Computers"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/computercommands/...",
+      "operation": "POST",
+      "privileges": [
+        "Send Computer table describ (Jamf Pro Server Actions)"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/computerextensionattributes",
+      "operation": "GET",
+      "privileges": [
+        "Read - Extension Attributes"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/computerextensionattributes/id/{id}",
+      "operation": "GET",
+      "privileges": [
+        "Read - Extension Attributes"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/computerextensionattributes/id/{id}",
+      "operation": "POST",
+      "privileges": [
+        "Create - Extension Attributes"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/computerextensionattributes/id/{id}",
+      "operation": "PUT",
+      "privileges": [
+        "Update - Extension Attributes"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/computerextensionattributes/id/{id}",
+      "operation": "DELETE",
+      "privileges": [
+        "Delete - Extension Attributes"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/computergroups",
+      "operation": "GET",
+      "privileges": [
+        "Read - Smart Computer Groups (for smart groups) Read - Static Computer Groups (for static groups)"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/computergroups/id/{id}",
+      "operation": "GET",
+      "privileges": [
+        "Read - Smart Computer Groups (for smart groups) Read - Static Computer Groups (for static groups)"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/computergroups/id/{id}",
+      "operation": "POST",
+      "privileges": [
+        "Create - Smart Computer Groups (for smart groups) Create - Static Computer Groups (for static groups)"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/computergroups/id/{id}",
+      "operation": "PUT",
+      "privileges": [
+        "Update - Smart Computer Groups (for smart groups) Update - Static Computer Groups (for static groups)"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/computergroups/id/{id}",
+      "operation": "DELETE",
+      "privileges": [
+        "Delete - Smart Computer Groups (for smart groups) Delete - Static Computer Groups (for static groups)"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/computerhardwaresoftwarereports/...",
+      "operation": "GET",
+      "privileges": [
+        "Read - Computers"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/computerhistory/...",
+      "operation": "GET",
+      "privileges": [
+        "Read - Computers"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/computerinventorycollection",
+      "operation": "GET",
+      "privileges": [
+        "Read - Computer Inventory Collection"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/computerinventorycollection",
+      "operation": "PUT",
+      "privileges": [
+        "Update - Computer Inventory Collection"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/computerinvitations",
+      "operation": "GET",
+      "privileges": [
+        "Read - Computer Enrollment Invitations"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/computerinvitations/id/{id}",
+      "operation": "GET",
+      "privileges": [
+        "Read - Computer Enrollment Invitations"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/computerinvitations/id/{id}",
+      "operation": "POST",
+      "privileges": [
+        "Create - Computer Enrollment Invitations"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/computerinvitations/id/{id}",
+      "operation": "DELETE",
+      "privileges": [
+        "Delete - Computer Enrollment Invitations"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/computermanagement",
+      "operation": "GET",
+      "privileges": [
+        "Read - Computers"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/computers",
+      "operation": "GET",
+      "privileges": [
+        "Read - Computers"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/computers/id/{id}",
+      "operation": "GET",
+      "privileges": [
+        "Read - Computers"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/computers/id/{id}",
+      "operation": "POST",
+      "privileges": [
+        "Create - Computers Create - Users"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/computers/id/{id}",
+      "operation": "PUT",
+      "privileges": [
+        "Update - Computers Update - Users"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/computers/id/{id}",
+      "operation": "DELETE",
+      "privileges": [
+        "Delete - Computers"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/departments",
+      "operation": "GET",
+      "privileges": [
+        "Read - Departments"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/departments/id/{id}",
+      "operation": "GET",
+      "privileges": [
+        "Read - Departments"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/departments/id/{id}",
+      "operation": "POST",
+      "privileges": [
+        "Create - Departments"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/departments/id/{id}",
+      "operation": "PUT",
+      "privileges": [
+        "Update - Departments"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/departments/id/{id}",
+      "operation": "DELETE",
+      "privileges": [
+        "Delete - Departments"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/directorybindings",
+      "operation": "GET",
+      "privileges": [
+        "Read - Directory Bindings"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/directorybindings/id/{id}",
+      "operation": "GET",
+      "privileges": [
+        "Read - Directory Bindings"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/directorybindings/id/{id}",
+      "operation": "POST",
+      "privileges": [
+        "Create - Directory Bindings"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/directorybindings/id/{id}",
+      "operation": "PUT",
+      "privileges": [
+        "Update - Directory Bindings"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/directorybindings/id/{id}",
+      "operation": "DELETE",
+      "privileges": [
+        "Delete - Directory Bindings"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/diskencryptionconfigurations",
+      "operation": "GET",
+      "privileges": [
+        "Read - Disk Encryption Configurations"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/diskencryptionconfigurations/id/{id}",
+      "operation": "GET",
+      "privileges": [
+        "Read - Disk Encryption Configurations"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/diskencryptionconfigurations/id/{id}",
+      "operation": "POST",
+      "privileges": [
+        "Create - Disk Encryption Configurations"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/diskencryptionconfigurations/id/{id}",
+      "operation": "PUT",
+      "privileges": [
+        "Update - Disk Encryption Configurations"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/diskencryptionconfigurations/id/{id}",
+      "operation": "DELETE",
+      "privileges": [
+        "Delete - Disk Encryption Configurations"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/distributionpoints",
+      "operation": "GET",
+      "privileges": [
+        "Read - File Share Distribution Points"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/distributionpoints/id/{id}",
+      "operation": "GET",
+      "privileges": [
+        "Read - File Share Distribution Points"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/distributionpoints/id/{id}",
+      "operation": "POST",
+      "privileges": [
+        "Create - File Share Distribution Points"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/distributionpoints/id/{id}",
+      "operation": "PUT",
+      "privileges": [
+        "Update - File Share Distribution Points"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/distributionpoints/id/{id}",
+      "operation": "DELETE",
+      "privileges": [
+        "Delete - File Share Distribution Points"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/dockitems",
+      "operation": "GET",
+      "privileges": [
+        "Read - Dock Items"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/dockitems/id/{id}",
+      "operation": "GET",
+      "privileges": [
+        "Read - Dock Items"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/dockitems/id/{id}",
+      "operation": "POST",
+      "privileges": [
+        "Create - Dock Items"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/dockitems/id/{id}",
+      "operation": "PUT",
+      "privileges": [
+        "Update - Dock Items"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/dockitems/id/{id}",
+      "operation": "DELETE",
+      "privileges": [
+        "Delete - Dock Items"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/ebooks",
+      "operation": "GET",
+      "privileges": [
+        "Read - eBooks"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/ebooks/id/{id}",
+      "operation": "GET",
+      "privileges": [
+        "Read - eBooks"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/ebooks/id/{id}",
+      "operation": "POST",
+      "privileges": [
+        "Create - eBooks"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/ebooks/id/{id}",
+      "operation": "PUT",
+      "privileges": [
+        "Update - eBooks"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/ebooks/id/{id}",
+      "operation": "DELETE",
+      "privileges": [
+        "Delete - eBooks"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/fileuploads/computers/...",
+      "operation": "POST",
+      "privileges": [
+        "Create - Computers"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/fileuploads/mobiledevices/...",
+      "operation": "POST",
+      "privileges": [
+        "Create - Mobile Devices"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/fileuploads/enrollmentprofiles/...",
+      "operation": "POST",
+      "privileges": [
+        "Non-functional"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/fileuploads/printers/...",
+      "operation": "POST",
+      "privileges": [
+        "Non-functional"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/fileuploads/peripherals/...",
+      "operation": "POST",
+      "privileges": [
+        "Create - Computers"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/fileuploads/policies/...",
+      "operation": "POST",
+      "privileges": [
+        "Create - Policies"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/fileuploads/ebooks/...",
+      "operation": "POST",
+      "privileges": [
+        "Create - eBooks"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/fileuploads/mobiledeviceapplicationsicon/...",
+      "operation": "POST",
+      "privileges": [
+        "Create - Mobile Device Apps"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/fileuploads/mobiledeviceapplicationsipa/...",
+      "operation": "POST",
+      "privileges": [
+        "Create - Mobile Device Apps"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/fileuploads/diskencryptionconfigurations/...",
+      "operation": "POST",
+      "privileges": [
+        "Create - Disk Encryption Configurations"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/gsxconnection",
+      "operation": "GET",
+      "privileges": [
+        "Read - GSX Connection"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/gsxconnection",
+      "operation": "PUT",
+      "privileges": [
+        "Update - GSX Connection"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/healthcarelistener",
+      "operation": "GET",
+      "privileges": [
+        "Read - Infrastructure Manager Instances"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/healthcarelistener/id/{id}",
+      "operation": "GET",
+      "privileges": [
+        "Read - Infrastructure Manager Instances"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/healthcarelistener/id/{id}",
+      "operation": "PUT",
+      "privileges": [
+        "Update - Infrastructure Manager Instances"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/healthcarelistenerrule",
+      "operation": "GET",
+      "privileges": [
+        "Read - Infrastructure Manager Instances"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/healthcarelistenerrule/id/{id}",
+      "operation": "GET",
+      "privileges": [
+        "Read - Infrastructure Manager Instances"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/healthcarelistenerrule/id/{id}",
+      "operation": "POST",
+      "privileges": [
+        "Create - Infrastructure Manager Instances"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/healthcarelistenerrule/id/{id}",
+      "operation": "PUT",
+      "privileges": [
+        "Update - Infrastructure Manager Instances"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/healthcarelistenerrule/id/{id}",
+      "operation": "DELETE",
+      "privileges": [
+        "Delete - Infrastructure Manager Instances"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/ibeacons",
+      "operation": "GET",
+      "privileges": [
+        "Read - iBeacons"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/ibeacons/id/{id}",
+      "operation": "GET",
+      "privileges": [
+        "Read - iBeacons"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/ibeacons/id/{id}",
+      "operation": "POST",
+      "privileges": [
+        "Create - iBeacons"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/ibeacons/id/{id}",
+      "operation": "PUT",
+      "privileges": [
+        "Update - iBeacons"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/ibeacons/id/{id}",
+      "operation": "DELETE",
+      "privileges": [
+        "Delete - iBeacons"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/infrastructuremanager",
+      "operation": "GET",
+      "privileges": [
+        "Read - Infrastructure Manager Instances"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/infrastructuremanager/id/{id}",
+      "operation": "GET",
+      "privileges": [
+        "Read - Infrastructure Manager Instances"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/infrastructuremanager/id/{id}",
+      "operation": "PUT",
+      "privileges": [
+        "Update - Infrastructure Manager Instances"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/jsonwebtokenconfigurations",
+      "operation": "GET",
+      "privileges": [
+        "Read - JSON Web Token Configurations"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/jsonwebtokenconfigurations/id/{id}",
+      "operation": "GET",
+      "privileges": [
+        "Read - JSON Web Token Configurations"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/jsonwebtokenconfigurations/id/{id}",
+      "operation": "POST",
+      "privileges": [
+        "Create - JSON Web Token Configurations"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/jsonwebtokenconfigurations/id/{id}",
+      "operation": "PUT",
+      "privileges": [
+        "Update - JSON Web Token Configurations"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/jsonwebtokenconfigurations/id/{id}",
+      "operation": "DELETE",
+      "privileges": [
+        "Delete - JSON Web Token Configurations"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/ldapservers",
+      "operation": "GET",
+      "privileges": [
+        "Read - LDAP Servers"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/ldapservers/id/{id}",
+      "operation": "GET",
+      "privileges": [
+        "Read - LDAP Servers"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/ldapservers/id/{id}",
+      "operation": "POST",
+      "privileges": [
+        "Create - LDAP Servers"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/ldapservers/id/{id}",
+      "operation": "PUT",
+      "privileges": [
+        "Update - LDAP Servers"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/ldapservers/id/{id}",
+      "operation": "DELETE",
+      "privileges": [
+        "Delete - LDAP Servers"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/licensedsoftware",
+      "operation": "GET",
+      "privileges": [
+        "Read - Licensed Software Records"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/licensedsoftware/id/{id}",
+      "operation": "GET",
+      "privileges": [
+        "Read - Licensed Software Records"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/licensedsoftware/id/{id}",
+      "operation": "POST",
+      "privileges": [
+        "Create - Licensed Software Records"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/licensedsoftware/id/{id}",
+      "operation": "PUT",
+      "privileges": [
+        "Update - Licensed Software Records"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/licensedsoftware/id/{id}",
+      "operation": "DELETE",
+      "privileges": [
+        "Delete - Licensed Software Records"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/logflush...",
+      "operation": "DELETE",
+      "privileges": [
+        "Delete - Policies Flush Policy Logs (Jamf Pro Server Actions)"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/macapplications",
+      "operation": "GET",
+      "privileges": [
+        "Read - Mac App Store Apps"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/macapplications/id/{id}",
+      "operation": "GET",
+      "privileges": [
+        "Read - Mac App Store Apps"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/macapplications/id/{id}",
+      "operation": "POST",
+      "privileges": [
+        "Create - Mac App Store Apps"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/macapplications/id/{id}",
+      "operation": "PUT",
+      "privileges": [
+        "Update - Mac App Store Apps"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/macapplications/id/{id}",
+      "operation": "DELETE",
+      "privileges": [
+        "Delete - Mac App Store Apps"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/managedpreferenceprofiles",
+      "operation": "GET",
+      "privileges": [
+        "Read - Managed Preference Profiles"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/managedpreferenceprofiles/id/{id}",
+      "operation": "GET",
+      "privileges": [
+        "Read - Managed Preference Profiles"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/managedpreferenceprofiles/id/{id}",
+      "operation": "POST",
+      "privileges": [
+        "Create - Managed Preference Profiles"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/managedpreferenceprofiles/id/{id}",
+      "operation": "PUT",
+      "privileges": [
+        "Update - Managed Preference Profiles"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/managedpreferenceprofiles/id/{id}",
+      "operation": "DELETE",
+      "privileges": [
+        "Delete - Managed Preference Profiles"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/mobiledeviceapplications",
+      "operation": "GET",
+      "privileges": [
+        "Read - Mobile Device Apps"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/mobiledeviceapplications/id/{id}",
+      "operation": "GET",
+      "privileges": [
+        "Read - Mobile Device Apps"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/mobiledeviceapplications/id/{id}",
+      "operation": "POST",
+      "privileges": [
+        "Create - Mobile Device Apps"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/mobiledeviceapplications/id/{id}",
+      "operation": "PUT",
+      "privileges": [
+        "Update - Mobile Device Apps"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/mobiledeviceapplications/id/{id}",
+      "operation": "DELETE",
+      "privileges": [
+        "Delete - Mobile Device Apps"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/mobiledevicecommands",
+      "operation": "GET",
+      "privileges": [
+        "Read - Mobile Devices"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/mobiledevicecommands/...",
+      "operation": "GET",
+      "privileges": [
+        "Read - Mobile Devices"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/mobiledevicecommands/command...",
+      "operation": "POST",
+      "privileges": [
+        "Create - Mobile Devices Send Mobile Device ed privileges (Jamf Pro Server Actions)"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/mobiledeviceconfigurationprofiles",
+      "operation": "GET",
+      "privileges": [
+        "Read - Mobile Device Configuration Profiles"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/mobiledeviceconfigurationprofiles/id/{id}",
+      "operation": "GET",
+      "privileges": [
+        "Read - Mobile Device Configuration Profiles"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/mobiledeviceconfigurationprofiles/id/{id}",
+      "operation": "POST",
+      "privileges": [
+        "Create - Mobile Device Configuration Profiles"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/mobiledeviceconfigurationprofiles/id/{id}",
+      "operation": "PUT",
+      "privileges": [
+        "Update - Mobile Device Configuration Profiles"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/mobiledeviceconfigurationprofiles/id/{id}",
+      "operation": "DELETE",
+      "privileges": [
+        "Delete - Mobile Device Configuration Profiles"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/mobiledeviceenrollmentprofiles",
+      "operation": "GET",
+      "privileges": [
+        "Read - Enrollment Profiles"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/mobiledeviceenrollmentprofiles/id/{id}",
+      "operation": "GET",
+      "privileges": [
+        "Read - Enrollment Profiles"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/mobiledeviceenrollmentprofiles/id/{id}",
+      "operation": "POST",
+      "privileges": [
+        "Create - Enrollment Profiles"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/mobiledeviceenrollmentprofiles/id/{id}",
+      "operation": "PUT",
+      "privileges": [
+        "Update - Enrollment Profiles"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/mobiledeviceenrollmentprofiles/id/{id}",
+      "operation": "DELETE",
+      "privileges": [
+        "Delete - Enrollment Profiles"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/mobiledeviceextensionattributes",
+      "operation": "GET",
+      "privileges": [
+        "Read - Mobile Device Extension Attributes"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/mobiledeviceextensionattributes/id/{id}",
+      "operation": "GET",
+      "privileges": [
+        "Read - Mobile Device Extension Attributes"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/mobiledeviceextensionattributes/id/{id}",
+      "operation": "POST",
+      "privileges": [
+        "Create - Mobile Device Extension Attributes"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/mobiledeviceextensionattributes/id/{id}",
+      "operation": "PUT",
+      "privileges": [
+        "Update - Mobile Device Extension Attributes"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/mobiledeviceextensionattributes/id/{id}",
+      "operation": "DELETE",
+      "privileges": [
+        "Delete - Mobile Device Extension Attributes"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/mobiledevicegroups",
+      "operation": "GET",
+      "privileges": [
+        "Read - Smart Mobile Device Groups (for smart groups) Read - Static Mobile Device Groups (for static groups)"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/mobiledevicegroups/id/{id}",
+      "operation": "GET",
+      "privileges": [
+        "Read - Smart Mobile Device Groups (for smart groups) Read - Static Mobile Device Groups (for static groups)"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/mobiledevicegroups/id/{id}",
+      "operation": "POST",
+      "privileges": [
+        "Create - Smart Mobile Device Groups (for smart groups) Create - Static Mobile Device Groups (for static groups"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/mobiledevicegroups/id/{id}",
+      "operation": "PUT",
+      "privileges": [
+        "Update - Smart Mobile Device Groups (for smart groups) Update - Static Mobile Device Groups (for static groups)"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/mobiledevicegroups/id/{id}",
+      "operation": "DELETE",
+      "privileges": [
+        "Delete - Smart Mobile Device Groups (for smart groups) Delete - Static Mobile Device Groups (for static groups)"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/mobiledevicehistory/...",
+      "operation": "GET",
+      "privileges": [
+        "Read - Mobile Devices"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/mobiledeviceinvitations",
+      "operation": "GET",
+      "privileges": [
+        "Read - Mobile Device Enrollment Invitations"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/mobiledeviceinvitations/id/{id}",
+      "operation": "GET",
+      "privileges": [
+        "Read - Mobile Device Enrollment Invitations"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/mobiledeviceinvitations/id/{id}",
+      "operation": "POST",
+      "privileges": [
+        "Create - Mobile Device Enrollment Invitations"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/mobiledeviceinvitations/id/{id}",
+      "operation": "DELETE",
+      "privileges": [
+        "Delete - Mobile Device Enrollment Invitations"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/mobiledeviceprovisioningprofiles",
+      "operation": "GET",
+      "privileges": [
+        "Read - Provisioning Profiles"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/mobiledeviceprovisioningprofiles/id/{id}",
+      "operation": "GET",
+      "privileges": [
+        "Read - Provisioning Profiles"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/mobiledeviceprovisioningprofiles/id/{id}",
+      "operation": "POST",
+      "privileges": [
+        "Create - Provisioning Profiles"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/mobiledeviceprovisioningprofiles/id/{id}",
+      "operation": "PUT",
+      "privileges": [
+        "Update - Provisioning Profiles"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/mobiledeviceprovisioningprofiles/id/{id}",
+      "operation": "DELETE",
+      "privileges": [
+        "Delete - Provisioning Profiles"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/mobiledevices",
+      "operation": "GET",
+      "privileges": [
+        "Read - Mobile Devices"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/mobiledevices/id/{id}",
+      "operation": "GET",
+      "privileges": [
+        "Read - Mobile Devices"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/mobiledevices/id/{id}",
+      "operation": "POST",
+      "privileges": [
+        "Create - Mobile Devices Create - Users"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/mobiledevices/id/{id}",
+      "operation": "PUT",
+      "privileges": [
+        "Update - Mobile Devices Update - Users"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/mobiledevices/id/{id}",
+      "operation": "DELETE",
+      "privileges": [
+        "Delete - Mobile Devices"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/networksegments",
+      "operation": "GET",
+      "privileges": [
+        "Read - Network Segments"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/networksegments/id/{id}",
+      "operation": "GET",
+      "privileges": [
+        "Read - Network Segments"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/networksegments/id/{id}",
+      "operation": "POST",
+      "privileges": [
+        "Create - Network Segments"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/networksegments/id/{id}",
+      "operation": "PUT",
+      "privileges": [
+        "Update - Network Segments"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/networksegments/id/{id}",
+      "operation": "DELETE",
+      "privileges": [
+        "Delete - Network Segments"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/osxconfigurationprofiles",
+      "operation": "GET",
+      "privileges": [
+        "Read - macOS Configuration Profiles"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/osxconfigurationprofiles/id/{id}",
+      "operation": "GET",
+      "privileges": [
+        "Read - macOS Configuration Profiles"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/osxconfigurationprofiles/id/{id}",
+      "operation": "POST",
+      "privileges": [
+        "Create - macOS Configuration Profiles"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/osxconfigurationprofiles/id/{id}",
+      "operation": "PUT",
+      "privileges": [
+        "Update - macOS Configuration Profiles"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/osxconfigurationprofiles/id/{id}",
+      "operation": "DELETE",
+      "privileges": [
+        "Delete - macOS Configuration Profiles"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/packages",
+      "operation": "GET",
+      "privileges": [
+        "Read - Packages"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/packages/id/{id}",
+      "operation": "GET",
+      "privileges": [
+        "Read - Packages"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/packages/id/{id}",
+      "operation": "POST",
+      "privileges": [
+        "Create - Packages"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/packages/id/{id}",
+      "operation": "PUT",
+      "privileges": [
+        "Update - Packages"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/packages/id/{id}",
+      "operation": "DELETE",
+      "privileges": [
+        "Delete - Packages"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/patchavailabletitles/sourceid/{id}",
+      "operation": "GET",
+      "privileges": [
+        "Read - Patch Management Software Titles"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/patchexternalsources",
+      "operation": "GET",
+      "privileges": [
+        "Read - External Patch Sources"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/patchexternalsources/id/{id}",
+      "operation": "GET",
+      "privileges": [
+        "Read - External Patch Sources"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/patchexternalsources/id/{id}",
+      "operation": "POST",
+      "privileges": [
+        "Create - External Patch Sources"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/patchexternalsources/id/{id}",
+      "operation": "PUT",
+      "privileges": [
+        "Update - External Patch Sources"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/patchexternalsources/id/{id}",
+      "operation": "DELETE",
+      "privileges": [
+        "Delete - External Patch Sources"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/patchinternalsources...",
+      "operation": "GET",
+      "privileges": [
+        "Read - Internal Patch Sources (Jamf Pro Server Settings)"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/patchpolicies",
+      "operation": "GET",
+      "privileges": [
+        "Read - Patch Management Software Titles Read - Patch Policies"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/patchpolicies/id/{id}",
+      "operation": "GET",
+      "privileges": [
+        "Read - Patch Management Software Titles Read - Patch Policies"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/patchpolicies/id/{id}",
+      "operation": "POST",
+      "privileges": [
+        "Create - Patch Policies"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/patchpolicies/id/{id}",
+      "operation": "PUT",
+      "privileges": [
+        "Update - Patch Policies"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/patchpolicies/id/{id}",
+      "operation": "DELETE",
+      "privileges": [
+        "Delete - Patch Policies"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/patchreports...",
+      "operation": "GET",
+      "privileges": [
+        "Read - Patch Management Software Titles"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/patchsoftwaretitles",
+      "operation": "GET",
+      "privileges": [
+        "Read - Patch Management Software Titles"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/patchsoftwaretitles/id/{id}",
+      "operation": "GET",
+      "privileges": [
+        "Read - Patch Management Software Titles"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/patchsoftwaretitles/id/{id}",
+      "operation": "POST",
+      "privileges": [
+        "Create - Patch Management Software Titles"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/patchsoftwaretitles/id/{id}",
+      "operation": "PUT",
+      "privileges": [
+        "Update - Patch Management Software Titles"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/patchsoftwaretitles/id/{id}",
+      "operation": "DELETE",
+      "privileges": [
+        "Delete - Patch Management Software Titles Delete - Extension Attributes (if the patch title includes an Extension Attribute)"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/peripherals",
+      "operation": "GET",
+      "privileges": [
+        "Read - Computers"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/peripherals/id/{id}",
+      "operation": "GET",
+      "privileges": [
+        "Read - Computers"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/peripherals/id/{id}",
+      "operation": "POST",
+      "privileges": [
+        "Create - Computers"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/peripherals/id/{id}",
+      "operation": "PUT",
+      "privileges": [
+        "Update - Computers"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/peripherals/id/{id}",
+      "operation": "DELETE",
+      "privileges": [
+        "Delete - Computers"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/peripheraltypes",
+      "operation": "GET",
+      "privileges": [
+        "Read - Peripheral Types"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/peripheraltypes/id/{id}",
+      "operation": "GET",
+      "privileges": [
+        "Read - Peripheral Types"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/peripheraltypes/id/{id}",
+      "operation": "POST",
+      "privileges": [
+        "Create - Peripheral Types"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/peripheraltypes/id/{id}",
+      "operation": "PUT",
+      "privileges": [
+        "Update - Peripheral Types"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/peripheraltypes/id/{id}",
+      "operation": "DELETE",
+      "privileges": [
+        "Delete - Peripheral Types"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/policies...",
+      "operation": "GET",
+      "privileges": [
+        "Read - Policies"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/policies/id/{id}",
+      "operation": "GET",
+      "privileges": [
+        "Read - Policies"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/policies/id/{id}",
+      "operation": "POST",
+      "privileges": [
+        "Create - Policies"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/policies/id/{id}",
+      "operation": "PUT",
+      "privileges": [
+        "Update - Policies"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/policies/id/{id}",
+      "operation": "DELETE",
+      "privileges": [
+        "Delete - Policies"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/printers",
+      "operation": "GET",
+      "privileges": [
+        "Read - Printers"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/printers/id/{id}",
+      "operation": "GET",
+      "privileges": [
+        "Read - Printers"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/printers/id/{id}",
+      "operation": "POST",
+      "privileges": [
+        "Create - Printers"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/printers/id/{id}",
+      "operation": "PUT",
+      "privileges": [
+        "Update - Printers"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/printers/id/{id}",
+      "operation": "DELETE",
+      "privileges": [
+        "Delete - Printers"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/removablemacaddresses",
+      "operation": "GET",
+      "privileges": [
+        "Read - Removable MAC Addresses"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/removablemacaddresses/id/{id}",
+      "operation": "GET",
+      "privileges": [
+        "Read - Removable MAC Addresses"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/removablemacaddresses/id/{id}",
+      "operation": "POST",
+      "privileges": [
+        "Create - Removable MAC Addresses"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/removablemacaddresses/id/{id}",
+      "operation": "PUT",
+      "privileges": [
+        "Update - Removable MAC Addresses"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/removablemacaddresses/id/{id}",
+      "operation": "DELETE",
+      "privileges": [
+        "Delete - Removable MAC Addresses"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/restrictedsoftware",
+      "operation": "GET",
+      "privileges": [
+        "Read - Restricted Software Records"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/restrictedsoftware/id/{id}",
+      "operation": "GET",
+      "privileges": [
+        "Read - Restricted Software Records"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/restrictedsoftware/id/{id}",
+      "operation": "POST",
+      "privileges": [
+        "Create - Restricted Software Records"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/restrictedsoftware/id/{id}",
+      "operation": "PUT",
+      "privileges": [
+        "Update - Restricted Software Records"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/restrictedsoftware/id/{id}",
+      "operation": "DELETE",
+      "privileges": [
+        "Delete - Restricted Software Records"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/scripts",
+      "operation": "GET",
+      "privileges": [
+        "Read - Scripts"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/scripts/id/{id}",
+      "operation": "GET",
+      "privileges": [
+        "Read - Scripts"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/scripts/id/{id}",
+      "operation": "POST",
+      "privileges": [
+        "Create - Scripts"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/scripts/id/{id}",
+      "operation": "PUT",
+      "privileges": [
+        "Update - Scripts"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/scripts/id/{id}",
+      "operation": "DELETE",
+      "privileges": [
+        "Delete - Scripts"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/sites",
+      "operation": "GET",
+      "privileges": [
+        "Read - Sites"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/sites/id/{id}",
+      "operation": "GET",
+      "privileges": [
+        "Read - Sites"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/sites/id/{id}",
+      "operation": "POST",
+      "privileges": [
+        "Create - Sites"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/sites/id/{id}",
+      "operation": "PUT",
+      "privileges": [
+        "Update - Sites"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/sites/id/{id}",
+      "operation": "DELETE",
+      "privileges": [
+        "Delete - Sites"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/smtpserver",
+      "operation": "GET",
+      "privileges": [
+        "Read - SMTP Server (Jamf Pro Server Settings)"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/smtpserver",
+      "operation": "PUT",
+      "privileges": [
+        "Update - SMTP Server (Jamf Pro Server Settings)"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/softwareupdateservers",
+      "operation": "GET",
+      "privileges": [
+        "Read - Software Update Servers"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/softwareupdateservers/id/{id}",
+      "operation": "GET",
+      "privileges": [
+        "Read - Software Update Servers"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/softwareupdateservers/id/{id}",
+      "operation": "POST",
+      "privileges": [
+        "Create - Software Update Servers"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/softwareupdateservers/id/{id}",
+      "operation": "PUT",
+      "privileges": [
+        "Update - Software Update Servers"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/softwareupdateservers/id/{id}",
+      "operation": "DELETE",
+      "privileges": [
+        "Delete - Software Update Servers"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/userextensionattributes",
+      "operation": "GET",
+      "privileges": [
+        "Read - User Extension Attributes"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/userextensionattributes/id/{id}",
+      "operation": "GET",
+      "privileges": [
+        "Read - User Extension Attributes"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/userextensionattributes/id/{id}",
+      "operation": "POST",
+      "privileges": [
+        "Create - User Extension Attributes"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/userextensionattributes/id/{id}",
+      "operation": "PUT",
+      "privileges": [
+        "Update - User Extension Attributes"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/userextensionattributes/id/{id}",
+      "operation": "DELETE",
+      "privileges": [
+        "Delete - User Extension Attributes"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/usergroups",
+      "operation": "GET",
+      "privileges": [
+        "Read - Smart User Groups OR Static User Groups"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/usergroups/id/{id}",
+      "operation": "GET",
+      "privileges": [
+        "Read - Smart User Groups (for smart groups) Read - Static User Groups (for static groups)"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/usergroups/id/{id}",
+      "operation": "POST",
+      "privileges": [
+        "Create - Smart User Groups (for smart groups) Create - Static User Groups (for static groups)"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/usergroups/id/{id}",
+      "operation": "PUT",
+      "privileges": [
+        "Update - Smart User Groups (for smart groups) Update - Static User Groups (for static groups)"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/usergroups/id/{id}",
+      "operation": "DELETE",
+      "privileges": [
+        "Delete - Smart User Groups (for smart groups) Delete - Static User Groups (for static groups)"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/users",
+      "operation": "GET",
+      "privileges": [
+        "Read - Users"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/users/id/{id}",
+      "operation": "GET",
+      "privileges": [
+        "Read - Users"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/users/id/{id}",
+      "operation": "POST",
+      "privileges": [
+        "Create - Users"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/users/id/{id}",
+      "operation": "PUT",
+      "privileges": [
+        "Update - Users"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/users/id/{id}",
+      "operation": "DELETE",
+      "privileges": [
+        "Delete - Users"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/vppaccounts",
+      "operation": "GET",
+      "privileges": [
+        "Read - VPP Admin Accounts"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/vppaccounts/id/{id}",
+      "operation": "GET",
+      "privileges": [
+        "Read - VPP Admin Accounts"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/vppaccounts/id/{id}",
+      "operation": "POST",
+      "privileges": [
+        "Create - VPP Admin Accounts"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/vppaccounts/id/{id}",
+      "operation": "PUT",
+      "privileges": [
+        "Update - VPP Admin Accounts"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/vppaccounts/id/{id}",
+      "operation": "DELETE",
+      "privileges": [
+        "Delete - VPP Admin Accounts"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/vppassignments",
+      "operation": "GET",
+      "privileges": [
+        "Read - VPP Assignments"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/vppassignments/id/{id}",
+      "operation": "GET",
+      "privileges": [
+        "Read - VPP Assignments"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/vppassignments/id/{id}",
+      "operation": "POST",
+      "privileges": [
+        "Create - VPP Assignments"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/vppassignments/id/{id}",
+      "operation": "PUT",
+      "privileges": [
+        "Update - VPP Assignments"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/vppassignments/id/{id}",
+      "operation": "DELETE",
+      "privileges": [
+        "Delete - VPP Assignments"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/vppinvitations",
+      "operation": "GET",
+      "privileges": [
+        "Read - VPP Invitations"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/vppinvitations/id/{id}",
+      "operation": "GET",
+      "privileges": [
+        "Read - VPP Invitations"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/vppinvitations/id/{id}",
+      "operation": "POST",
+      "privileges": [
+        "Create - VPP Invitations"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/vppinvitations/id/{id}",
+      "operation": "PUT",
+      "privileges": [
+        "Update - VPP Invitations"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/vppinvitations/id/{id}",
+      "operation": "DELETE",
+      "privileges": [
+        "Delete - VPP Invitations"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/webhooks",
+      "operation": "GET",
+      "privileges": [
+        "Read - Webhooks"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/webhooks/id/{id}",
+      "operation": "GET",
+      "privileges": [
+        "Read - Webhooks"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/webhooks/id/{id}",
+      "operation": "POST",
+      "privileges": [
+        "Create - Webhooks"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/webhooks/id/{id}",
+      "operation": "PUT",
+      "privileges": [
+        "Update - Webhooks"
+      ],
+      "deprecation_date": null
+    },
+    {
+      "endpoint": "/webhooks/id/{id}",
+      "operation": "DELETE",
+      "privileges": [
+        "Delete - Webhooks"
+      ],
+      "deprecation_date": null
+    }
+  ]
+}
