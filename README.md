@@ -1,6 +1,6 @@
 # roleAutomatorRoles
 
-Public library of Jamf API role and privilege mappings for [RoleAutomator](https://github.com/joshikavan92/RoleAutomator).
+Public library of Jamf API role and privilege mappings for [Jamf RoleAutomator](https://github.com/joshikavan92/jamf-role-automator).
 
 Please do not commit on this repository. If you need any assistance or find issue, please reach out to joshikavan92@gmail.com or report in Issues section. 
 
