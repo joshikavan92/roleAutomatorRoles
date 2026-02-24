@@ -2,6 +2,8 @@
 
 Public library of Jamf API role and privilege mappings for [RoleAutomator](https://github.com/joshikavan92/RoleAutomator).
 
+Please do not commit on this repository. If you need any assistance or find issue, please reach out to joshikavan92@gmail.com or report in Issues section. 
+
 - **Source:** Fetched from [Jamf Developer Documentation](https://developer.jamf.com/jamf-pro/docs) (Classic API + Jamf Pro API privileges).
 - **Updated:** Daily via GitHub Actions; you can also run **Actions → Refresh Jamf roles → Run workflow** to refresh now.
 - **Consumed by:** RoleAutomator macOS app via `https://raw.githubusercontent.com/joshikavan92/roleAutomatorRoles/main/roles/jamf-roles.json`.
