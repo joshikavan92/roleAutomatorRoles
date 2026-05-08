@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "last_updated": "2026-05-07T06:13:11.296807",
+  "last_updated": "2026-05-08T05:31:54.028755",
   "metadata": {
     "description": "Jamf Pro API Role and Privilege Mappings",
     "source": "Jamf Developer Documentation",
@@ -51,6 +51,7 @@
       "Create Smart Mobile Device Groups",
       "Create Static Computer Groups",
       "Create Static Mobile Device Groups",
+      "Create User",
       "Create Volume Purchasing Locations",
       "Delete AD CS Settings",
       "Delete API Integrations",
@@ -85,6 +86,7 @@
       "Delete Smart Mobile Device Groups",
       "Delete Static Computer Groups",
       "Delete Static Mobile Device Groups",
+      "Delete User",
       "Delete Volume Purchasing Locations",
       "Dismiss Notifications",
       "Edit Return To Service Configurations",
@@ -97,6 +99,7 @@
       "Read AD CS Settings",
       "Read API Integrations",
       "Read API Roles",
+      "Read Account Groups",
       "Read Accounts",
       "Read Activation Code",
       "Read Advanced Mobile Device Searches",
@@ -140,6 +143,7 @@
       "Read Jamf Protect Settings",
       "Read Jamf Protect Settings Read Jamf Protect Deployments",
       "Read LDAP Servers",
+      "Read Last Login",
       "Read Managed Software Updates",
       "Read Managed Software Updates Create Managed Software Updates Update Managed Software Updates",
       "Read Managed Software Updates Read Computers Read Mobile Devices",
@@ -178,7 +182,9 @@
       "Read Static Mobile Device Groups Read Mobile Devices",
       "Read Static User Groups",
       "Read Teacher App Settings",
+      "Read User",
       "Read User-Initiated Enrollment",
+      "Read User-Initiated Enrollment Update Local Admin Password Settings",
       "Read Volume Purchasing Locations",
       "Read eBooks",
       "Send Command to Renew MDM Profile",
@@ -197,6 +203,7 @@
       "Update AD CS Settings Create AD CS Settings",
       "Update API Integrations",
       "Update API Roles",
+      "Update Accounts",
       "Update Activation Code",
       "Update Activation Code View JSS Information",
       "Update Advanced Mobile Device Searches",
@@ -253,6 +260,7 @@
       "Update Smart User Groups",
       "Update Static Computer Groups",
       "Update Teacher App Settings",
+      "Update User",
       "Update User-Initiated Enrollment",
       "Update Volume Purchasing Locations",
       "View Computer Device Lock Pin",
@@ -605,6 +613,7 @@
     "Create Smart Mobile Device Groups",
     "Create Static Computer Groups",
     "Create Static Mobile Device Groups",
+    "Create User",
     "Create Volume Purchasing Locations",
     "Delete - Advanced Computer Searches",
     "Delete - Advanced Mobile Device Searches",
@@ -695,6 +704,7 @@
     "Delete Smart Mobile Device Groups",
     "Delete Static Computer Groups",
     "Delete Static Mobile Device Groups",
+    "Delete User",
     "Delete Volume Purchasing Locations",
     "Dismiss Notifications",
     "Edit Return To Service Configurations",
@@ -769,6 +779,7 @@
     "Read AD CS Settings",
     "Read API Integrations",
     "Read API Roles",
+    "Read Account Groups",
     "Read Accounts",
     "Read Activation Code",
     "Read Advanced Mobile Device Searches",
@@ -812,6 +823,7 @@
     "Read Jamf Protect Settings",
     "Read Jamf Protect Settings Read Jamf Protect Deployments",
     "Read LDAP Servers",
+    "Read Last Login",
     "Read Managed Software Updates",
     "Read Managed Software Updates Create Managed Software Updates Update Managed Software Updates",
     "Read Managed Software Updates Read Computers Read Mobile Devices",
@@ -850,7 +862,9 @@
     "Read Static Mobile Device Groups Read Mobile Devices",
     "Read Static User Groups",
     "Read Teacher App Settings",
+    "Read User",
     "Read User-Initiated Enrollment",
+    "Read User-Initiated Enrollment Update Local Admin Password Settings",
     "Read Volume Purchasing Locations",
     "Read eBooks",
     "Send Command to Renew MDM Profile",
@@ -927,6 +941,7 @@
     "Update AD CS Settings Create AD CS Settings",
     "Update API Integrations",
     "Update API Roles",
+    "Update Accounts",
     "Update Activation Code",
     "Update Activation Code View JSS Information",
     "Update Advanced Mobile Device Searches",
@@ -983,6 +998,7 @@
     "Update Smart User Groups",
     "Update Static Computer Groups",
     "Update Teacher App Settings",
+    "Update User",
     "Update User-Initiated Enrollment",
     "Update Volume Purchasing Locations",
     "View Computer Device Lock Pin",
@@ -3882,6 +3898,22 @@
         "deprecation_date": null
       },
       {
+        "endpoint": "/v1/account-groups",
+        "operation": "GET",
+        "privileges": [
+          "Read Account Groups"
+        ],
+        "deprecation_date": null
+      },
+      {
+        "endpoint": "/v1/account-groups/{id}",
+        "operation": "GET",
+        "privileges": [
+          "Read Account Groups"
+        ],
+        "deprecation_date": null
+      },
+      {
         "endpoint": "/v1/accounts",
         "operation": "GET",
         "privileges": [
@@ -3910,6 +3942,14 @@
         "operation": "GET",
         "privileges": [
           "Read Accounts"
+        ],
+        "deprecation_date": null
+      },
+      {
+        "endpoint": "/v1/accounts/{id}",
+        "operation": "PUT",
+        "privileges": [
+          "Update Accounts"
         ],
         "deprecation_date": null
       },
@@ -4158,6 +4198,38 @@
         "operation": "PUT",
         "privileges": [
           "Update API Roles"
+        ],
+        "deprecation_date": null
+      },
+      {
+        "endpoint": "/v1/apns-client-push-status",
+        "operation": "GET",
+        "privileges": [
+          "View MDM command information in Jamf Pro API"
+        ],
+        "deprecation_date": null
+      },
+      {
+        "endpoint": "/v1/apns-client-push-status/enable-all-clients",
+        "operation": "POST",
+        "privileges": [
+          "Send MDM command information in Jamf Pro API"
+        ],
+        "deprecation_date": null
+      },
+      {
+        "endpoint": "/v1/apns-client-push-status/enable-all-clients/status",
+        "operation": "GET",
+        "privileges": [
+          "View MDM command information in Jamf Pro API"
+        ],
+        "deprecation_date": null
+      },
+      {
+        "endpoint": "/v1/apns-client-push-status/enable-client",
+        "operation": "POST",
+        "privileges": [
+          "Send MDM command information in Jamf Pro API"
         ],
         "deprecation_date": null
       },
@@ -4514,6 +4586,14 @@
         "deprecation_date": null
       },
       {
+        "endpoint": "/v1/cloud-distribution-point/fail-upload/{id}",
+        "operation": "POST",
+        "privileges": [
+          "Update Cloud Distribution Point"
+        ],
+        "deprecation_date": null
+      },
+      {
         "endpoint": "/v1/cloud-distribution-point/files",
         "operation": "GET",
         "privileges": [
@@ -4534,6 +4614,14 @@
         "operation": "POST",
         "privileges": [
           "Update Cloud Distribution Point"
+        ],
+        "deprecation_date": null
+      },
+      {
+        "endpoint": "/v1/cloud-distribution-point/refresh-inventory",
+        "operation": "POST",
+        "privileges": [
+          "Read Cloud Distribution Point"
         ],
         "deprecation_date": null
       },
@@ -5879,7 +5967,7 @@
         "privileges": [
           "Read Jamf Cloud Distribution Service Files"
         ],
-        "deprecation_date": null
+        "deprecation_date": "2025-08-28"
       },
       {
         "endpoint": "/v1/jcds/files",
@@ -5887,7 +5975,7 @@
         "privileges": [
           "Create Jamf Cloud Distribution Service Files"
         ],
-        "deprecation_date": null
+        "deprecation_date": "2025-08-28"
       },
       {
         "endpoint": "/v1/jcds/files/{fileName}",
@@ -5895,7 +5983,7 @@
         "privileges": [
           "Delete Jamf Cloud Distribution Service Files"
         ],
-        "deprecation_date": null
+        "deprecation_date": "2025-08-28"
       },
       {
         "endpoint": "/v1/jcds/files/{fileName}",
@@ -5903,7 +5991,7 @@
         "privileges": [
           "Read Jamf Cloud Distribution Service Files"
         ],
-        "deprecation_date": null
+        "deprecation_date": "2025-08-28"
       },
       {
         "endpoint": "/v1/jcds/refresh-inventory",
@@ -5911,13 +5999,21 @@
         "privileges": [
           "Read Jamf Cloud Distribution Service Files"
         ],
-        "deprecation_date": null
+        "deprecation_date": "2025-08-28"
       },
       {
         "endpoint": "/v1/jcds/renew-credentials",
         "operation": "POST",
         "privileges": [
           "Create Jamf Cloud Distribution Service Files"
+        ],
+        "deprecation_date": "2025-08-28"
+      },
+      {
+        "endpoint": "/v1/last-login",
+        "operation": "GET",
+        "privileges": [
+          "Read Last Login"
         ],
         "deprecation_date": null
       },
@@ -6166,6 +6262,30 @@
         "operation": "GET",
         "privileges": [
           "Read Mobile Devices"
+        ],
+        "deprecation_date": null
+      },
+      {
+        "endpoint": "/v1/mdm-renewal/device-common-details/{clientManagementId}",
+        "operation": "GET",
+        "privileges": [
+          "Send Command to Renew MDM Profile"
+        ],
+        "deprecation_date": null
+      },
+      {
+        "endpoint": "/v1/mdm-renewal/renewal-strategies/{clientManagementId}",
+        "operation": "DELETE",
+        "privileges": [
+          "Send Command to Renew MDM Profile"
+        ],
+        "deprecation_date": null
+      },
+      {
+        "endpoint": "/v1/mdm-renewal/renewal-strategies/{clientManagementId}",
+        "operation": "GET",
+        "privileges": [
+          "Send Command to Renew MDM Profile"
         ],
         "deprecation_date": null
       },
@@ -6423,7 +6543,7 @@
         "privileges": [
           "None"
         ],
-        "deprecation_date": null
+        "deprecation_date": "2026-02-17"
       },
       {
         "endpoint": "/v1/oidc/generate-certificate",
@@ -7226,6 +7346,22 @@
         "deprecation_date": null
       },
       {
+        "endpoint": "/v1/service-discovery-enrollment/well-known-settings",
+        "operation": "GET",
+        "privileges": [
+          "Read User-Initiated Enrollment"
+        ],
+        "deprecation_date": null
+      },
+      {
+        "endpoint": "/v1/service-discovery-enrollment/well-known-settings",
+        "operation": "PUT",
+        "privileges": [
+          "Update User-Initiated Enrollment"
+        ],
+        "deprecation_date": null
+      },
+      {
         "endpoint": "/v1/sites",
         "operation": "GET",
         "privileges": [
@@ -7280,22 +7416,6 @@
           "Update Smart User Groups"
         ],
         "deprecation_date": null
-      },
-      {
-        "endpoint": "/v1/smtp-server",
-        "operation": "GET",
-        "privileges": [
-          "Read SMTP Server"
-        ],
-        "deprecation_date": "2024-03-19"
-      },
-      {
-        "endpoint": "/v1/smtp-server",
-        "operation": "PUT",
-        "privileges": [
-          "Update SMTP Server"
-        ],
-        "deprecation_date": "2024-03-19"
       },
       {
         "endpoint": "/v1/smtp-server/history",
@@ -7426,6 +7546,14 @@
         "deprecation_date": null
       },
       {
+        "endpoint": "/v1/system/platform-initialize",
+        "operation": "POST",
+        "privileges": [
+          "None"
+        ],
+        "deprecation_date": null
+      },
+      {
         "endpoint": "/v1/teacher-app",
         "operation": "GET",
         "privileges": [
@@ -7466,6 +7594,22 @@
         "deprecation_date": null
       },
       {
+        "endpoint": "/v1/user-sessions/active",
+        "operation": "GET",
+        "privileges": [
+          "Read User"
+        ],
+        "deprecation_date": null
+      },
+      {
+        "endpoint": "/v1/user-sessions/count",
+        "operation": "GET",
+        "privileges": [
+          "Read User"
+        ],
+        "deprecation_date": null
+      },
+      {
         "endpoint": "/v1/user/change-password",
         "operation": "POST",
         "privileges": [
@@ -7502,6 +7646,46 @@
         "operation": "PUT",
         "privileges": [
           "None"
+        ],
+        "deprecation_date": null
+      },
+      {
+        "endpoint": "/v1/users",
+        "operation": "GET",
+        "privileges": [
+          "Read User"
+        ],
+        "deprecation_date": null
+      },
+      {
+        "endpoint": "/v1/users",
+        "operation": "POST",
+        "privileges": [
+          "Create User"
+        ],
+        "deprecation_date": null
+      },
+      {
+        "endpoint": "/v1/users/{id}",
+        "operation": "DELETE",
+        "privileges": [
+          "Delete User"
+        ],
+        "deprecation_date": null
+      },
+      {
+        "endpoint": "/v1/users/{id}",
+        "operation": "GET",
+        "privileges": [
+          "Read User"
+        ],
+        "deprecation_date": null
+      },
+      {
+        "endpoint": "/v1/users/{id}",
+        "operation": "PUT",
+        "privileges": [
+          "Update User"
         ],
         "deprecation_date": null
       },
@@ -8253,7 +8437,7 @@
         "endpoint": "/v2/local-admin-password/settings",
         "operation": "GET",
         "privileges": [
-          "Update Local Admin Password Settings"
+          "Read User-Initiated Enrollment Update Local Admin Password Settings"
         ],
         "deprecation_date": null
       },
@@ -8562,6 +8746,14 @@
         "deprecation_date": null
       },
       {
+        "endpoint": "/v2/oidc/dispatch",
+        "operation": "POST",
+        "privileges": [
+          "None"
+        ],
+        "deprecation_date": null
+      },
+      {
         "endpoint": "/v2/patch-management-accept-disclaimer",
         "operation": "POST",
         "privileges": [
@@ -8802,22 +8994,6 @@
         "deprecation_date": null
       },
       {
-        "endpoint": "/v2/sso",
-        "operation": "GET",
-        "privileges": [
-          "Read SSO Settings"
-        ],
-        "deprecation_date": "2024-09-01"
-      },
-      {
-        "endpoint": "/v2/sso",
-        "operation": "PUT",
-        "privileges": [
-          "Update SSO Settings"
-        ],
-        "deprecation_date": "2024-09-01"
-      },
-      {
         "endpoint": "/v2/sso/cert",
         "operation": "DELETE",
         "privileges": [
@@ -8864,54 +9040,6 @@
           "Update SSO Settings"
         ],
         "deprecation_date": null
-      },
-      {
-        "endpoint": "/v2/sso/dependencies",
-        "operation": "GET",
-        "privileges": [
-          "Read SSO Settings"
-        ],
-        "deprecation_date": "2024-09-01"
-      },
-      {
-        "endpoint": "/v2/sso/disable",
-        "operation": "POST",
-        "privileges": [
-          "Update SSO Settings"
-        ],
-        "deprecation_date": "2024-09-01"
-      },
-      {
-        "endpoint": "/v2/sso/history",
-        "operation": "GET",
-        "privileges": [
-          "Read SSO Settings"
-        ],
-        "deprecation_date": "2024-09-01"
-      },
-      {
-        "endpoint": "/v2/sso/history",
-        "operation": "POST",
-        "privileges": [
-          "Update SSO Settings"
-        ],
-        "deprecation_date": "2024-09-01"
-      },
-      {
-        "endpoint": "/v2/sso/metadata/download",
-        "operation": "GET",
-        "privileges": [
-          "Read SSO Settings"
-        ],
-        "deprecation_date": "2024-09-01"
-      },
-      {
-        "endpoint": "/v2/sso/validate",
-        "operation": "POST",
-        "privileges": [
-          "Update SSO Settings"
-        ],
-        "deprecation_date": "2024-09-01"
       },
       {
         "endpoint": "/v3/account-preferences",
