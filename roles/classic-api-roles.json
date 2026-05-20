@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "last_updated": "2026-05-19T06:51:03.652033",
+  "last_updated": "2026-05-20T06:51:20.024858",
   "endpoints": [
     {
       "endpoint": "/accounts",
@@ -462,7 +462,7 @@
       "endpoint": "/computercommands/...",
       "operation": "POST",
       "privileges": [
-        "Send Computer table describ (Jamf Pro Server Actions)"
+        "Send Computer Commands (Jamf Pro Server Actions)"
       ],
       "deprecation_date": null
     },
@@ -1390,7 +1390,7 @@
       "endpoint": "/mobiledevicecommands/command...",
       "operation": "POST",
       "privileges": [
-        "Create - Mobile Devices Send Mobile Device ed privileges (Jamf Pro Server Actions)"
+        "Create - Mobile Devices Send Mobile Device Commands (Jamf Pro Server Actions)"
       ],
       "deprecation_date": null
     },
@@ -1534,7 +1534,7 @@
       "endpoint": "/mobiledevicegroups/id/{id}",
       "operation": "POST",
       "privileges": [
-        "Create - Smart Mobile Device Groups (for smart groups) Create - Static Mobile Device Groups (for static groups"
+        "Create - Smart Mobile Device Groups (for smart groups) Create - Static Mobile Device Groups (for static groups)"
       ],
       "deprecation_date": null
     },
