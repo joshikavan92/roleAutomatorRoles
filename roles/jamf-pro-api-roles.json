@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "last_updated": "2026-10-22T08:24:33.735079",
+  "last_updated": "2026-10-23T08:21:07.111165",
   "endpoints": [
     {
       "endpoint": "/auth",
@@ -4843,7 +4843,7 @@
       "deprecation_date": null
     },
     {
-      "endpoint": "/v2/local-admin-password/{clientManagementId}/account/USERNAME/audit",
+      "endpoint": "/v2/local-admin-password/{clientManagementId}/account/{username}/audit",
       "operation": "GET",
       "privileges": [
         "View Local Admin Password Audit History"
@@ -4851,7 +4851,7 @@
       "deprecation_date": null
     },
     {
-      "endpoint": "/v2/local-admin-password/{clientManagementId}/account/USERNAME/history",
+      "endpoint": "/v2/local-admin-password/{clientManagementId}/account/{username}/history",
       "operation": "GET",
       "privileges": [
         "View Local Admin Password Audit History"
@@ -4859,7 +4859,7 @@
       "deprecation_date": null
     },
     {
-      "endpoint": "/v2/local-admin-password/{clientManagementId}/account/USERNAME/password",
+      "endpoint": "/v2/local-admin-password/{clientManagementId}/account/{username}/password",
       "operation": "GET",
       "privileges": [
         "View Local Admin Password"
@@ -4867,7 +4867,7 @@
       "deprecation_date": null
     },
     {
-      "endpoint": "/v2/local-admin-password/{clientManagementId}/account/USERNAME/{guid}/audit",
+      "endpoint": "/v2/local-admin-password/{clientManagementId}/account/{username}/{guid}/audit",
       "operation": "GET",
       "privileges": [
         "View Local Admin Password Audit History"
@@ -4875,7 +4875,7 @@
       "deprecation_date": null
     },
     {
-      "endpoint": "/v2/local-admin-password/{clientManagementId}/account/USERNAME/{guid}/history",
+      "endpoint": "/v2/local-admin-password/{clientManagementId}/account/{username}/{guid}/history",
       "operation": "GET",
       "privileges": [
         "View Local Admin Password Audit History"
@@ -4883,7 +4883,7 @@
       "deprecation_date": null
     },
     {
-      "endpoint": "/v2/local-admin-password/{clientManagementId}/account/USERNAME/{guid}/password",
+      "endpoint": "/v2/local-admin-password/{clientManagementId}/account/{username}/{guid}/password",
       "operation": "GET",
       "privileges": [
         "View Local Admin Password"
